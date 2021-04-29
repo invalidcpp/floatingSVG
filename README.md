@@ -19,6 +19,7 @@ A simple JQuery plugin that makes SVG's float around the screen.
 $(".test").floatingSVG({});
 ```
 #### Within the parameters of the floatingSVG object you enter JSON data Using the following table:
-| Key | Value |
-|-----|-------|
-| SVGs | ['path/to/svg/or/image'] |
+| Key | Value | Description |
+|-----|-------|-------------|
+| SVGs | ['path/to/svg/or/image'] | You can add as many paths to the array as you want |
+| min_speed | 5 | This is the minimum speed the SVG's will travel at |
