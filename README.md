@@ -11,3 +11,13 @@ A simple JQuery plugin that makes SVG's float around the screen.
 <script src="your/file/path.js"></script>
 ```
 #### Note: Make sure you put the script tag beneath the JQuery library
+
+# Usage
+
+### 1) Attach to an existing element, preferably a div tag
+```javascript
+$(".test").floatingSVG({});
+```
+#### Within the parameters of the floatingSVG object you enter JSON data Using the following table:
+| Key | Value |
+|-----|-------|
