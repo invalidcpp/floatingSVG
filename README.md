@@ -21,3 +21,4 @@ $(".test").floatingSVG({});
 #### Within the parameters of the floatingSVG object you enter JSON data Using the following table:
 | Key | Value |
 |-----|-------|
+| SVGs | ['path/to/svg/or/image'] |
