@@ -18,7 +18,7 @@ A simple JQuery plugin that makes SVG's float around the screen.
 ```javascript
 $(".test").floatingSVG({});
 ```
-#### Within the parameters of the floatingSVG object you enter JSON data Using the following table:
+#### Within the parameters of the floatingSVG object you enter JSON data Using the following table (The values in this table are also default):
 | Key | Value | Description |
 |-----|-------|-------------|
 | SVGs | ['path/to/svg/or/image'] | You can add as many paths to the array as you want |
@@ -28,5 +28,19 @@ $(".test").floatingSVG({});
 | rotation_min_speed | 0 | The minimum speed the SVG's rotate |
 | rotation_max_speed | 0 | The maximum speed the SVG's rotate |
 | scaling | false | Set to true if you want the SVG's to scale up and down |
+| scale | 0 | The size the SVG's incremement by |
 | min_scale | 0 | The minimum scale you want the SVG's to shrink to |
 | max_scale | 0 | The maximum scale you wrant the SVG's to grow to |
+
+#### Note: For the min and max speeds and scale, it will choose a random number between.
+# Example
+```javascript
+$(".test").floatingSVG({
+  "SVGs": ["image1.png", "image2.png", "image3.png", "image4.svg", "image5.jpg"],
+  "min_speed": -2,
+  "max_speed": 4,
+  "scaling": true,
+  "scale": 0.2,
+  "min_scale": 300,
+  "max_scale": 700
+});
