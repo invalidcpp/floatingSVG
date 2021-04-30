@@ -34,6 +34,8 @@ $(".test").floatingSVG({});
 
 **Note:** For the min and max speeds and scale, it will choose a random number between.
 # Example
+
+### Movement and Scaling
 ```javascript
 $(".test").floatingSVG({
   "SVGs": ["image1.png", "image2.png", "image3.png", "image4.svg", "image5.jpg"],
@@ -44,3 +46,20 @@ $(".test").floatingSVG({
   "min_scale": 300,
   "max_scale": 700
 });
+```
+
+### Movement, Scaling and Rotation
+```javascript
+$(".test").floatingSVG({
+  "SVGs": ["image1.png", "image2.png", "image3.png", "image4.svg", "image5.jpg"],
+  "min_speed": -2,
+  "max_speed": 4,
+  "scaling": true,
+  "scale": 0.2,
+  "min_scale": 300,
+  "max_scale": 700
+  "rotation": true,
+  "rotation_min_speed": -0.5,
+  "rotation_max_speed": 0.6
+});
+```
