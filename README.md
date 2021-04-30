@@ -10,7 +10,7 @@ A simple JQuery plugin that makes SVG's float around the screen.
 <script src="jquery.min.js"></script>
 <script src="your/file/path.js"></script>
 ```
-#### Note: Make sure you put the script tag beneath the JQuery library
+#### **Note:** Make sure you put the script tag beneath the JQuery library
 
 # Usage
 
@@ -32,7 +32,7 @@ $(".test").floatingSVG({});
 | min_scale | 0 | The minimum scale you want the SVG's to shrink to |
 | max_scale | 0 | The maximum scale you wrant the SVG's to grow to |
 
-#### Note: For the min and max speeds and scale, it will choose a random number between.
+#### **Note:** For the min and max speeds and scale, it will choose a random number between.
 # Example
 ```javascript
 $(".test").floatingSVG({
