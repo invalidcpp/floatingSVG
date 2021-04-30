@@ -22,6 +22,11 @@ $(".test").floatingSVG({});
 | Key | Value | Description |
 |-----|-------|-------------|
 | SVGs | ['path/to/svg/or/image'] | You can add as many paths to the array as you want |
-| min_speed | -5 | This is the minimum speed the SVG's will travel at |
-| max_speed | 5 | This is the maximum speed the SVG's will travel at |
-
+| min_speed | -5 | This is the minimum speed the SVG's will travel |
+| max_speed | 5 | This is the maximum speed the SVG's will travel |
+| rotation | false | Set to true if you want the SVG's to rotate while moving |
+| rotation_min_speed | 0 | The minimum speed the SVG's rotate |
+| rotation_max_speed | 0 | The maximum speed the SVG's rotate |
+| scaling | false | Set to true if you want the SVG's to scale up and down |
+| min_scale | 0 | The minimum scale you want the SVG's to shrink to |
+| max_scale | 0 | The maximum scale you wrant the SVG's to grow to |
