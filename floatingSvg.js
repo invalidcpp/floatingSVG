@@ -10,7 +10,7 @@
         rotation_min_speed: 5 // the mimimum speed the SVG's rotate 
         rotation_max_speed: 10 // the maximum speed the SVG's rotate
         scaling: false // allow the SVG's to scale randomly
-		scale: 0 // The size the SVG increments by
+	scale: 0 // The size the SVG increments by
         min_scale: 0 // minimum size the SVG's scale to
         max_scale: 0 // maximum size the SVG's scale to
     }  
