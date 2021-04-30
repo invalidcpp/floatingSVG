@@ -14,7 +14,7 @@ A simple JQuery plugin that makes SVG's float around the screen.
 
 # Usage
 
-### 1) Attach to an existing element, preferably a div tag
+### Attach to an existing element, preferably a div tag
 ```javascript
 $(".test").floatingSVG({});
 ```
@@ -23,3 +23,5 @@ $(".test").floatingSVG({});
 |-----|-------|-------------|
 | SVGs | ['path/to/svg/or/image'] | You can add as many paths to the array as you want |
 | min_speed | 5 | This is the minimum speed the SVG's will travel at |
+| max_speed | 5 | This is the maximum speed the SVG's will travel at |
+
