@@ -2,7 +2,7 @@
 
 A simple JQuery plugin that makes SVG's float around the screen.
 
-## Current Status: Unfinished
+### Current Status: Unfinished
 
 # Installing
 
